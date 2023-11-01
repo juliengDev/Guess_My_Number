@@ -117,3 +117,24 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+@media only screen and (max-width: 540px) {
+  header {
+    height: 60vh;
+  }
+
+  header h1 {
+    top: 60%;
+  }
+  .again {
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .between {
+    min-width: 26rem;
+    margin: 2rem 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
